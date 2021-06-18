@@ -1,9 +1,14 @@
 import java.util.*;
+//create a class name called Fibonacci
 public class Fibonacci {
+	//The main method is not catching the any exception instead it handles the IOException by throwing it to source
 	public static void main(String[] args) throws java.lang.Exception{
+		//Scanner class is used to insert the user input
 		Scanner sc=new Scanner(System.in);
+		//The user input of of T is integer value
 		int T=sc.nextInt();
 		sc.nextLine();
+		//Decrement the T value by one in every loop
 		while(T -->0) {
 			String str=sc.nextLine();
 			char array[]=str.toCharArray();
